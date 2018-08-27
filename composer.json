@@ -1,0 +1,27 @@
+{
+    "name": "eniagroup/silverstripe-elemental-site-search",
+    "description": "Basic site search for the SilverStripe Elemental module",
+    "type": "silverstripe-vendormodule",
+    "homepage": "http://github.com/eniagroup/silverstripe-elemental-site-search",
+    "keywords": [
+        "silverstripe",
+        "element",
+        "elemental",
+        "site search"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Mattias Lindgren",
+        "email": "information@enia.com.au"
+    }],
+    "support": {
+        "issues": "https://github.com/eniagroup/silverstripe-elemental-site-search/issues"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "silverstripe/cms": "^4.2",
+        "dnadesign/silverstripe-elemental": "^3.0",
+        "silverstripe/vendor-plugin": "^1"
+    }
+}

@@ -2,7 +2,7 @@
     "name": "eniagroup/silverstripe-elemental-site-search",
     "description": "Basic site search for the SilverStripe Elemental module",
     "type": "silverstripe-vendormodule",
-    "homepage": "http://github.com/eniagroup/silverstripe-elemental-site-search",
+    "homepage": "https://github.com/eniagroup/silverstripe-elemental-site-search",
     "keywords": [
         "silverstripe",
         "element",

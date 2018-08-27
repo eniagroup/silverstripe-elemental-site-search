@@ -7,7 +7,6 @@ This module adds a basic site search to websites using the [silverstripe element
 ## Requirements
 
 * SilverStripe Elemental ^3.0
-* 
 
 ## Installation
 

@@ -2,3 +2,6 @@
 Name: elemental_site_search
 After: 'elemental'
 ---
+SilverStripe\CMS\Model\SiteTree:
+  extensions:
+    - EniaGroup\ElementalSiteSearch\Model\SearchablePageExtension

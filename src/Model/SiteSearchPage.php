@@ -25,5 +25,15 @@ class SiteSearchPage extends Page
      * {@inheritDoc}
      */
     private static $description = 'Enables users to search the website';
+    
+    /**
+     * Set the controller for this model
+     * 
+     * @return string
+     */
+    public function getControllerName()
+    {
+        return SiteSearchPageController::class;
+    }
 
 }

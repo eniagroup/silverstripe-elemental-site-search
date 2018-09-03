@@ -3,6 +3,7 @@
 namespace EniaGroup\ElementalSiteSearch\Model;
 
 use Page;
+use EniaGroup\ElementalSiteSearch\Controller\SiteSearchPageController;
 
 class SiteSearchPage extends Page
 {

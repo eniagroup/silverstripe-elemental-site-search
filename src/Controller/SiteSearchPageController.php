@@ -32,8 +32,8 @@ class SiteSearchPageController extends PageController
      * 
      * @return string
      */
-    public function ajax() {
-        if ( $this->request->isAjax() ) {
+    public function ajax(HTTPRequest $request) {
+        if ( $request->isAjax() ) {
             return $this->renderWith(array('AjaxSearchResults'));
         } else {
             return $this->httpError(404);

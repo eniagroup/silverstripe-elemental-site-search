@@ -7,6 +7,7 @@ use SilverStripe\Core\Convert;
 use SilverStripe\ORM\ArrayList;
 use SilverStripe\ORM\PaginatedList;
 use SilverStripe\CMS\Model\SiteTree;
+use SilverStripe\Control\HTTPRequest;
 use SilverStripe\ORM\Queries\SQLSelect;
 
 class SiteSearchPageController extends PageController 
